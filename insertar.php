@@ -15,7 +15,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nombre = $_POST['nombre'];
         $edad = $_POST['edad'];
-        $sql = "INSERT INTO Persona (nombre, edad) VALUES ('$nombre', '$edad')";
+        $sql = "INSERT INTO persona (nombre, edad) VALUES ('$nombre', '$edad')";
 
         if ($conn->query($sql) === TRUE) {
             echo "Datos insertados correctamente";
