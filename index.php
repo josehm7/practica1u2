@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>José Hernández Molina</h1>
-    <h2>nuevo cambio</h2>
+    <h2>hola</h2>
     <?php
         date_default_timezone_set('Europe/Madrid');
         echo date('H:i:s');
